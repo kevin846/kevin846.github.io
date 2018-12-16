@@ -131,4 +131,9 @@ form input, form textarea{
     body{
         background: #333;
     }
+    
+    .container{
+        position: initial;
+        width: 100%;
+    }
 }
