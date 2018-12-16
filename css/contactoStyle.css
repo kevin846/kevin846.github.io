@@ -1,0 +1,95 @@
+
+body{
+    /*background: #333;*/
+    background: url(../img/contact-background.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.information{
+    padding: 10px 20px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+}
+
+.email{
+    padding-bottom: 4px;
+    border-bottom: 2px solid rgb(104, 104, 57);
+}
+
+.information, form{
+    background: rgb(160, 159, 159);
+    width: 40%;
+    background: transparent;
+}
+
+ .social a{
+    color: white;
+    font-size: 30px;
+    margin-right: 5px;
+    transition: .7s ease;
+}
+
+.social a:hover{
+    color: rgb(124, 92, 33);
+}
+
+input[type="text"], input[type="email"]{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: 35px;
+    background: rgba(90, 86, 86, 0.671);
+    border: none;
+    color: white;
+    padding-left: 6px;
+}
+
+textarea{
+    background: rgba(90, 86, 86, 0.671);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+button{
+    width: 95%;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background: rgb(124, 92, 33);
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgb(138, 104, 43);
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus{
+    outline: none;
+}
+
+form input, form textarea{
+    width: 95%;
+}
