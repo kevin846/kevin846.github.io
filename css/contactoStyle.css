@@ -129,11 +129,23 @@ form input, form textarea{
 
 @media screen and (max-width: 480px){
     body{
-        background: #333;
+        background: #171515;
     }
     
     .container{
-        position: initial;
+        /* position: initial; */
         width: 100%;
+    }
+
+    .information{
+        padding: 0;
+    }
+
+    .information, form{
+        width: 100%;
+    }
+
+    form input,form textarea, button{
+        width: 80%;
     }
 }
