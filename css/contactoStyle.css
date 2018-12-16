@@ -3,7 +3,9 @@ body{
     /*background: #333;*/
     background: url(../img/contact-background.jpg);
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
@@ -15,9 +17,9 @@ h1{
 
 .container{
     position: absolute;
-    top: 50%;
+    margin-top: 80px;
     left:50%;
-    transform: translate(-50%,-50%);
+    transform: translateX(-50%);
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -26,6 +28,7 @@ h1{
 .information{
     padding: 10px 20px;
 }
+
 
 ul{
     list-style: none;
@@ -83,7 +86,7 @@ button{
 }
 
 button:hover{
-    background: rgb(138, 104, 43);
+    background: rgb(172, 128, 48);
 }
 
 input[type="text"]:focus, input[type="email"]:focus, textarea:focus{
@@ -92,4 +95,34 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus{
 
 form input, form textarea{
     width: 95%;
+}
+
+@media screen and (max-width: 960px){
+    .container{
+        display: block;
+        /* border: 1px solid red; */
+        justify-items: center;
+        overflow: hidden;
+        margin-bottom: 50px;
+    }
+
+    .information, form{
+        width: 100%;
+        text-align: center;
+    }
+
+    body{
+        background-size: cover;
+    }
+
+    form{
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    form input,form textarea, button{
+        width: 50%;
+    }
+
+    
 }
