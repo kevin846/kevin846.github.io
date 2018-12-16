@@ -126,3 +126,9 @@ form input, form textarea{
 
     
 }
+
+@media screen and (max-width: 480px){
+    body{
+        background: #333;
+    }
+}
