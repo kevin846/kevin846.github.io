@@ -103,7 +103,7 @@ form input, form textarea{
         /* border: 1px solid red; */
         justify-items: center;
         overflow: hidden;
-        margin-bottom: 50px;
+        margin-bottom: 80px;
     }
 
     .information, form{
@@ -111,9 +111,6 @@ form input, form textarea{
         text-align: center;
     }
 
-    body{
-        background-size: cover;
-    }
 
     form{
         margin-top: 60px;
