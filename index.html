@@ -7,20 +7,23 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" href="css/indexStyle.css" type="text/css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+        <script src="scripts/menu.js"></script>
     </head>
 <body>
-    <div class="lateralMenu">
-      <div>
-        <a href="index.html">Inicio</a>
-          <a href="#">Artículos</a>
-          <a href="#">Compras</a>
-          <a href="contacto.html">Contacto</a>
-      </div>
+    <div class="lateralMenu" id="menu">
+      
+      <button class="close-button" onclick="hideMenu()"><i class="fas fa-times"></i></button>
+      <ul class="menu-list">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#">Artículos</a></li>
+          <li><a href="#">Compras</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+      </ul>
 
-      <button></button>
+      
     </div>
   <header>
-      <button class="hamburgerMenu"><i class="fas fa-bars"></i></button>
+      <button onclick="showMenu()" class="hamburgerMenu" ><i class="fas fa-bars"></i></button>
       <nav class="navbar">
         <figure class="brand">
           <img src="img/brand.jpg" height="80px" height="80px" alt="brand image">
