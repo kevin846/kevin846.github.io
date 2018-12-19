@@ -314,10 +314,10 @@ footer p{
 
 @media (min-width: 320px) and (max-width: 480px)
 {
-    .hamburgerMenu{
+    /* .hamburgerMenu{
         width: 15vw;
         height: 15vw;
         line-height: 15vw;
         border-radius: 7vw;
-    }
+    } */
 }
