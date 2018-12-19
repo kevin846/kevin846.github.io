@@ -301,4 +301,23 @@ footer p{
     .button-head{
         display: none;
     }
+
+    footer{
+        display: block;
+    }
+
+    .footer-cont{
+        width: auto;
+        text-align: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px)
+{
+    .hamburgerMenu{
+        width: 15vw;
+        height: 15vw;
+        line-height: 15vw;
+        border-radius: 7vw;
+    }
 }
